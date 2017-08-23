@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hkn-barcode-scanner",
+  "private_key_id": "068aaeb7d73b7182f4461e5c4bc3e2eb4c5683a1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDJWS+EHXRlfTjT\nT+nANMR8CtBD8BOLmgHTOLXSptZJl/OiPP+kbq2RS1uDU1usJ5yNHJRBtT+up/+h\nw2Au6oi24J9pY4RNwLG2iIYjSyE0JX0lCrrKpEkpVGGbII2b+v63lMf5UtJUr8ms\nu/d8ysARjNlIUb+epGP9BSrIxiYbscdU9lmT49GZLL2JQF7NDgukFaFJvGVfVJGI\nMLq//FrNTPLZYAuxbkX2w4ircojJew9oNlPjldp5B4heJkP8aWaRrJki7eCcDY0V\n/GV+i+zBO4KIHhlZ1vbVugq0rsB4qbGWS6WO38syXweyFtu6iCBV75fgUrK3Yp9L\nIr+pPY/NAgMBAAECggEBAJW5ikn2FT369iy8uhfBpXKQH/rFJeOjrEPDYgG5KpQj\nOHqmXXuLCeqHXQ+1BvBnrFSKsfyCqU5ZgxBpVrbMlMlZE3GtHQ8sgXo433aTQaej\nUQIgjnJt5DGlm8ddV7Br3snpCyNt4RY0egXG6OyVYGoskM7ka1eu6uOV2hDeuCvS\nnoPbpohSv+1KbL1xO/hK5mG4fUFqz3ql6bQYdsIm5iY7M5zikU9uwd7aW0wQALuU\nmsOzmtExhMXdn57v8Xvmds5bwoSwvypi/t9Yw4kF7lHpdZQ9aPvJ0QvxVWJbIBDI\n2SRHL4D78EUk91pG8LWgAb2EDCq0Iz13VBWj0HdvWIECgYEA9zZux23gNDV0jOg0\n+Agtkt03F9LO0qqDePHZWicPnYoJn3KwuVyvK4hAPiIjWpkjIuuOe1E65pI9A2fB\nxA7rqg0DyYsUYajEOdbGccxfsvF5I42634go2Hdk/PgQRR8IIAMjKxG0wphhhS5y\nbuU2KNxgrS2W/CMwkO2z347d4f0CgYEA0IFmmdl7SZfmqGtZM5jEnebds62fOZuQ\nQvfuR/0yKVUINZL3fIM+6Zy/pbyihTu8RoA3Gm4Ash25lh2n5ME1ZhdniE64mjJt\nPRaDKp9eqywZBvs2XogB/oapruEwFRsoVxT6rGRAMlYSqpPfXoK32MoOc3DDsAPE\nMnVjKR+uJhECgYAKZ0oGLoOO7uj2vRbtkTqJwbF92StHBlH+Fv90ocwwbwy0nxj8\n0/+zL0q00q72MxedcphObD60UVcr+4PWAmK8h0uvgaDb80Q+wuEbDOTCHRNiAabp\nnUtKwMuJMc9NeV7YKgmi2F3pCoygFDJQpGjBE3UmFJMUDU8P6lD1iYeg6QKBgQCn\nK+jYV1+a3Lhptk/5p3WU6GI+ymjMJmbe2qvoeh/6tZt0YNYetZf+c9fQiVKAoilN\nGUWU4jeal2yR6EsRhLtMlF1FE2C8+MtO3DrkNI0RjrSuPUIVPtTifpOTjCch9Pk+\nAKsPBv3Vnd8vdonz27iNj0tQ0UuEVzC6CBYuBaF6EQKBgQCRzx+Td6ZpOxsjhZBP\n9UloLcBE1soB2pFoaMN3+O8dsT1OFOkw5QrBYUea2uYW4oLkf4xo3q9c+tJ3MBHO\nT69HeL+Halh0Z7raLFyNrPjRgugiVpakic+j2VOeW0F+ZrN+ISzMo2GOpM+N3Mfh\nsbBgPEx+wx/9jaXCOWF34YX0TQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "hkn-barcode-scanner@appspot.gserviceaccount.com",
+  "client_id": "101789012944060767948",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hkn-barcode-scanner%40appspot.gserviceaccount.com"
+}

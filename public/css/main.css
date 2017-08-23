@@ -1,0 +1,94 @@
+html { 
+  position: relative; 
+  min-height: 100%; 
+} 
+
+body { 
+  padding-top: 0; 
+  margin-bottom: 60px; 
+} 
+
+
+.form-signin #inputName { 
+  margin-bottom: 10px; 
+} 
+
+.form-signin #inputBalance { 
+  margin-bottom: 10px; 
+} 
+
+.form-signin #inputPassword { 
+  margin-bottom: 10px; 
+  border-radius: 0.25rem; 
+} 
+
+.form-signin #pid { 
+  margin-bottom: 10px; 
+  border-radius: 0.25rem; 
+} 
+.form-signin #major { 
+  margin-bottom: 10px; 
+  border-radius: 0.25rem; 
+} 
+.form-signin #inputId { 
+  margin-bottom: 10px; 
+  border-radius: 0.25rem; 
+} 
+
+.specialRow { 
+  margin-left: 0px; 
+  margin-right: 0px; 
+} 
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #000040;
+  color: white; 
+  padding-top: 20px; 
+}
+
+.sidebar-info {
+  list-style: none; 
+  padding-bottom: 10px; 
+  padding-left: 0px; 
+  padding-top: 10px; 
+  margin: 0 auto; 
+  display: table; 
+} 
+
+.sidebar { 
+  border-radius: 5px; 
+  background-color: #c1c1c1; 
+} 
+
+.main-container {
+  padding-top: 15px; 
+  margin: 0 auto; 
+} 
+
+.centerText { 
+  text-align: center; 
+} 
+
+.leaderBoard { 
+  padding-left: 17px; 
+  display: table; 
+  margin: 0 auto; 
+}
+
+div#wrapperHeader {
+ background-color: #000040;
+ text-align:center;
+}
+
+div#wrapperHeader div#header {
+ margin:0 auto;
+}
+
+div#wrapperHeader div#header img {
+ margin:0 auto;
+}

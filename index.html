@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="Lucas Tindall">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>ECE Day Sign In</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
+  
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|PT+Sans" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="wrapperHeader">
+      <div id="header">
+        <img src="hknLogo.png"  width="1366" height="275" alt="logo" />
+      </div>
+    </div>
+    <div class="container">
+
+      <form class="form-signin" id="signinform">
+
+        <h2 class="form-signin-heading">ECE Day Sign In</h2>
+        <label for="email" class="sr-only">Email</label>
+        <input type="text" id="email" name="email" class="form-control" placeholder="Email" required autofocus>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" id="signin">Sign in</button>
+      </form>
+
+      <div class="row form-signin">
+        <div id="reset">
+        </div>
+        <div id="loginMessage">
+        </div>
+      </div>
+    </div> <!-- /container -->
+    <footer class="footer">
+      <div class="centerText">
+        &copy Lucas Tindall 2017
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+
+          $('#signinform').on('submit', function(e) { 
+            e.preventDefault(); 
+
+            $.ajax({
+              url: '/process_signin', 
+              type: 'POST', 
+              data: $( '#signinform' ).serialize(), 
+              success: function(message){
+                $( "#loginMessage" ).html(message); 
+                $('#signinform')[0].reset();
+              }
+            });
+          }); 
+        });
+    </script> 
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    -->
+  </body>
+</html>
